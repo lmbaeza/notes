@@ -7,6 +7,9 @@
 `Dev` y `CP`
 
 - [Rust Analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer)
+
+`Dev`
+
 - [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
 - [Crates](https://marketplace.visualstudio.com/items?itemName=serayuzgur.crates)
 - [Search crates.io](https://marketplace.visualstudio.com/items?itemName=belfz.search-crates-io)
