@@ -2,7 +2,7 @@
 
 `Dev` - Desarrollo, `CP` - Programación Competitiva
 
-# Rust
+## Rust
 
 `Dev` y `CP`
 
@@ -13,3 +13,12 @@
 - [Rust Test Explorer](https://marketplace.visualstudio.com/items?itemName=swellaby.vscode-rust-test-adapter)
 - [WebAssembly](https://marketplace.visualstudio.com/items?itemName=dtsvet.vscode-wasm)
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+
+## HTML
+
+`Dev`
+
+- [Open in Browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
+- [Html Tag Wrapper](https://marketplace.visualstudio.com/items?itemName=hwencc.html-tag-wrapper)
+- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
