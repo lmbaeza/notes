@@ -25,3 +25,9 @@
 - [Html Tag Wrapper](https://marketplace.visualstudio.com/items?itemName=hwencc.html-tag-wrapper)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+## IBM MQ
+
+`Dev`
+
+- [MQSC - Language support for MQSC commands](https://marketplace.visualstudio.com/items?itemName=lemrod.vscode-mqsc)
