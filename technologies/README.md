@@ -1,20 +1,34 @@
 # Tecnologias Informaticas
 
-### Apache Kafka
+`Dev`, `CP`
 
-**Descripción:**
+## Enterprice Integration Patters (Patrones de Integración)
 
-### Apache Camel
+* ### Apache Camel
+    **Descripción:**
 
-**Descripción:**
+* ### IBM ACE
+    **Descripción:**
 
-### Docker
+## Queue Manager (Administrador de Colas)
 
-**Descripción:**
+* ### Apache Kafka
 
-### IBM ACE
+    **Descripción:**
 
-**Descripción:**
+## Contenedores
+
+* ### Docker
+    **Descripción:**
+
+## Orquestador de Contenedores
+* ### Kubernetes
+    **Descripción:**
+
+* ### Openshift
+    **Descripción:**
+
+
 
 ### IBM MQ
 
