@@ -1,0 +1,30 @@
+version: '3.9'
+services:
+  ace-redis:
+    image: quay.io/luisbaez/ace-adaptador-cache:latest
+    container_name: ace-redis
+    restart: always
+    ports:
+      - "7800:7800"
+      - "7600:7600"
+      - "7843:7843"
+      
+    depends_on:
+      - redis-cache
+    networks:
+      - network-adaptador-cache
+    environment:
+      LICENSE: accept
+      ACE_SERVER_NAME: ACESERVER 
+  
+  redis-cache:
+    image: redis:latest
+    container_name: redis-cache
+    ports:
+      - 6379:6379
+    networks:
+      - network-adaptador-cache
+  
+networks:
+  network-adaptador-cache:
+    name: reto-spring
