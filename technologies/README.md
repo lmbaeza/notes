@@ -50,10 +50,12 @@
 * [Redis](https://github.com/redis/redis) — 
     * [![Redis](https://tokei.rs/b1/github/redis/redis?category=code)](https://github.com/hazelcast/hazelcast)
     * `Written in:` C
+    * `Supported Languages:` 54 Lenguajes Soportados
 
 * [Hazelcast](https://github.com/hazelcast/hazelcast) —
     * [![Hazelcast](https://tokei.rs/b1/github/hazelcast/hazelcast?category=code)](https://github.com/hazelcast/hazelcast)
     * `Written in:` Java
+    * `Supported Languages:` Java, .Net, C++, Node.js, Python, Go
 ## Testing
 
 `Open`, `Dev`
