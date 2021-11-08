@@ -5,36 +5,52 @@
 ## Enterprice Integration Patters (Patrones de Integración)
 
 `Open`, `Dev`
-* #### Apache Camel
-    **Descripción:**
+
+* [Apache Camel](#) —
 
 `EP`, `Dev`
-* #### IBM ACE
+
+* [IBM ACE](#)—
 
 ---
 ## Queue Manager (Administrador de Colas)
 
 `Open`, `Dev`
-* #### Apache Kafka
-* #### Active MQ 
+
+* [Apache Kafka](#) —
+* [Active MQ ](#) —
+* [Rabbit MQ](#) —
+
 `EP`, `Dev`
-* #### IBM MQ
+
+* [IBM MQ](#) —
 ---
 
 ## Contenedores
 
 `Open`, `Dev`
-* #### Docker
+
+* [Docker](#) —
 
 ---
 ## Orquestador de Contenedores
 `Open`, `Dev`
-* #### Kubernetes
-* #### Openshift Origin
+
+* [Kubernetes](#) —
+* [Openshift Origin](#) —
+
 `EP`, `Dev`
-* #### Openshift Container Plataform
+
+* [Openshift Container Plataform](#) —
+
+## Cache
+
+`Open`, `Dev`
+
+* [Redis](#) —
 
 ## Testing
 
 `Open`, `Dev`
-* #### Jmeter
+
+* [Jmeter](#) —
