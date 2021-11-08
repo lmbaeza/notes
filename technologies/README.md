@@ -4,32 +4,24 @@
 
 ## Enterprice Integration Patters (Patrones de Integración)
 
-* ### Apache Camel
+* #### Apache Camel
     **Descripción:**
+* #### IBM ACE
 
-* ### IBM ACE
-    **Descripción:**
-
+---
 ## Queue Manager (Administrador de Colas)
 
-* ### Apache Kafka
+* #### Apache Kafka
+* #### IBM MQ
+* #### Active MQ 
 
-    **Descripción:**
+---
 
 ## Contenedores
 
-* ### Docker
-    **Descripción:**
+* #### Docker
 
+---
 ## Orquestador de Contenedores
-* ### Kubernetes
-    **Descripción:**
-
-* ### Openshift
-    **Descripción:**
-
-
-
-### IBM MQ
-
-**Descripción:**
+* #### Kubernetes
+* #### Openshift
