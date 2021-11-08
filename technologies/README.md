@@ -47,8 +47,13 @@
 
 `Open`, `Dev`
 
-* [Redis](#) —
+* [Redis](https://github.com/redis/redis) — 
+    * [![Redis](https://tokei.rs/b1/github/redis/redis?category=code)](https://github.com/hazelcast/hazelcast)
+    * `Written in:` C
 
+* [Hazelcast](https://github.com/hazelcast/hazelcast) —
+    * [![Hazelcast](https://tokei.rs/b1/github/hazelcast/hazelcast?category=code)](https://github.com/hazelcast/hazelcast)
+    * `Written in:` Java
 ## Testing
 
 `Open`, `Dev`
