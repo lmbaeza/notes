@@ -1,51 +1,51 @@
 # Tecnologias Informaticas
 
-`Dev` - Desarrollo, `CP` - Programación Competitiva, `Open` - Open Source, `EP` - Enterprice 
+`Dev` - Desarrollo, `CP` - Programación Competitiva
 
 ## Enterprice Integration Patters (Patrones de Integración)
 
-`Open`, `Dev`
+`OpenSource`, `Dev`
 
 * [Apache Camel](#) —
 
-`EP`, `Dev`
+`Enterprice`, `Dev`
 
 * [IBM ACE](#)—
 
 ---
 ## Queue Manager (Administrador de Colas)
 
-`Open`, `Dev`
+`OpenSource`, `Dev`
 
 * [Apache Kafka](#) —
 * [Active MQ ](#) —
 * [Rabbit MQ](#) —
 
-`EP`, `Dev`
+`Enterprice`, `Dev`
 
 * [IBM MQ](#) —
 ---
 
 ## Contenedores
 
-`Open`, `Dev`
+`OpenSource`, `Dev`
 
 * [Docker](#) —
 
 ---
 ## Orquestador de Contenedores
-`Open`, `Dev`
+`OpenSource`, `Dev`
 
 * [Kubernetes](#) —
 * [Openshift Origin](#) —
 
-`EP`, `Dev`
+`Enterprice`, `Dev`
 
 * [Openshift Container Plataform](#) —
 
 ## Cache
 
-`Open`, `Dev`
+`OpenSource`, `Dev`
 
 * [Redis](https://github.com/redis/redis) — 
     * [![Redis](https://tokei.rs/b1/github/redis/redis?category=code)](https://github.com/hazelcast/hazelcast)
@@ -59,13 +59,13 @@
 
 ## Testing
 
-`Open`, `Dev`
+`OpenSource`, `Dev`
 
 * [Jmeter](#) —
 
 ### Monitoreo de Logs
 
-`Open`, `Dev`
+`OpenSource`, `Dev`
 
 * [ElasticSearch](https://github.com/elastic/elasticsearch) —
     * [![ElasticSearch](https://tokei.rs/b1/github/elastic/elasticsearch?category=code)](https://github.com/elastic/elasticsearch)
