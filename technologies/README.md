@@ -68,6 +68,6 @@
 `Open`, `Dev`
 
 * [ElasticSearch](https://github.com/elastic/elasticsearch) —
-    * [![Hazelcast](https://tokei.rs/b1/github/elastic/elasticsearch?category=code)](https://github.com/elastic/elasticsearch)
+    * [![ElasticSearch](https://tokei.rs/b1/github/elastic/elasticsearch?category=code)](https://github.com/elastic/elasticsearch)
     * `Written in:` Java
     * `Supported Languages:` Java, Node.js, Ruby, Go, .NET, php, Perl, Python, elang, Rust
