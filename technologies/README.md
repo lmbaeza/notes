@@ -7,6 +7,8 @@
 `OpenSource`, `Dev`
 
 * [Apache Camel](#) —
+    * [![Apache Camel](https://tokei.rs/b1/github/apache/camel?category=code)](https://github.com/apache/camel)
+    * `Written in:` Java
 
 `Enterprice`, `Dev`
 
@@ -18,8 +20,19 @@
 `OpenSource`, `Dev`
 
 * [Apache Kafka](#) —
-* [Active MQ ](#) —
+    * [![Apache Kafka](https://tokei.rs/b1/github/apache/kafka?category=code)](https://github.com/apache/kafka)
+    * `Written in:` Java
+    * `Supported Languages:` C/C++, Python, Go (AKA golang), Erlang, .NET, Clojure, Ruby, Node.js, Proxy (HTTP REST, etc), Perl, stdin/stdout, PHP, Rust, Alternative Java, Storm, Scala DSL , Clojure, Swift
+
+* [Active MQ](#) —
+    * [![Active MQ](https://tokei.rs/b1/github/apache/activemq?category=code)](https://github.com/apache/activemq)
+    * `Written in:` Java
+    * `Supported Languages:` .NET, C (defunct), C++, Erlang, Go, Haskell, Haxe (defunct), Jekejeke Prolog, NetLogo, Node.js, Perl 5, Pike, Python, Racket, Ruby on Rails, Tcl/Tk
+
 * [Rabbit MQ](#) —
+    * [![Rabbit MQ](https://tokei.rs/b1/github/rabbitmq/rabbitmq-server?category=code)](https://github.com/rabbitmq/rabbitmq-server)
+    * `Written in:` Erlang
+    * `Supported Languages:` Java, .NET, Ruby, Python, PHP, Go, Objective C, Rust, Crystal, Scala and Other JVM Languages, C/C++, Erlang, Haskell, entre otros
 
 `Enterprice`, `Dev`
 
@@ -48,7 +61,7 @@
 `OpenSource`, `Dev`
 
 * [Redis](https://github.com/redis/redis) — 
-    * [![Redis](https://tokei.rs/b1/github/redis/redis?category=code)](https://github.com/hazelcast/hazelcast)
+    * [![Redis](https://tokei.rs/b1/github/redis/redis?category=code)](https://github.com/redis/redis)
     * `Written in:` C
     * `Supported Languages:` 54 Lenguajes Soportados
 
