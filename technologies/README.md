@@ -44,17 +44,25 @@
 `OpenSource`, `Dev`
 
 * [Docker](#) —
+    * [![Docker](https://tokei.rs/b1/github/docker/cli?category=code)](https://github.com/docker/cli)
+    * `Written in:` Go lang
 
 ---
 ## Orquestador de Contenedores
 `OpenSource`, `Dev`
 
 * [Kubernetes](#) —
+    * [![Kubernetes](https://tokei.rs/b1/github/kubernetes/kubernetes?category=code)](https://github.com/kubernetes/kubernetes)
+    * `Written in:` Go lang
+
 * [Openshift Origin](#) —
+    * [![Openshift Origin](https://tokei.rs/b1/github/openshift/origin?category=code)](https://github.com/openshift/origin)
+    * `Written in:` Go lang
 
 `Enterprice`, `Dev`
 
 * [Openshift Container Plataform](#) —
+    * `Written in:` Go lang
 
 ## Cache
 
@@ -75,6 +83,9 @@
 `OpenSource`, `Dev`
 
 * [Jmeter](#) —
+    * [![Jmeter](https://tokei.rs/b1/github/apache/jmeter?category=code)](https://github.com/apache/jmeter)
+    * `Written in:` Java
+
 
 ### Monitoreo de Logs
 
