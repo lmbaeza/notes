@@ -1,0 +1,17 @@
+BROKER SCHEMA com.ibm.message
+
+CREATE COMPUTE MODULE ReadMessage_OK
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+
+		--SET OutputRoot.JSON.Data.mq = TRIM(CAST(InputRoot.BLOB.BLOB AS CHARACTER CCSID 1208 ENCODING 819));
+		-- Los datos de la MQ vienen en InputRoot.BLOB.BLOB
+		
+		-- Convertir de BLOB a JSON 
+		CREATE LASTCHILD OF OutputRoot DOMAIN('JSON') PARSE(InputRoot.BLOB.BLOB);
+
+		SET OutputRoot.JSON.Data.response.message = 'OK';
+		SET OutputRoot.JSON.Data.response.status = 200;
+		RETURN TRUE;
+	END;
+END MODULE;

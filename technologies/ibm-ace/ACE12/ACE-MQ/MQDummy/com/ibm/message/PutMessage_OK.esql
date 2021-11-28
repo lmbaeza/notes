@@ -1,0 +1,11 @@
+BROKER SCHEMA com.ibm.message
+
+
+CREATE COMPUTE MODULE PutMessage_OK
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET OutputRoot.JSON.Data.response.message = 'OK';
+		SET OutputRoot.JSON.Data.response.status = 200;
+		RETURN TRUE;
+	END;
+END MODULE;

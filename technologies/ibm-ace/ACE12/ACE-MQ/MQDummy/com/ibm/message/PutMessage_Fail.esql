@@ -1,0 +1,12 @@
+BROKER SCHEMA com.ibm.message
+
+
+CREATE COMPUTE MODULE PutMessage_Fail
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET OutputRoot.JSON.Data.response.message = 'El mensaje NO se pudo insertar correctamente';
+		SET OutputRoot.JSON.Data.response.status = 500;
+		RETURN TRUE;
+	END;
+
+END MODULE;

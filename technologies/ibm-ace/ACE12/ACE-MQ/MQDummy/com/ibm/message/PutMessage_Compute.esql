@@ -1,0 +1,10 @@
+BROKER SCHEMA com.ibm.message
+
+
+CREATE COMPUTE MODULE PutMessage_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET OutputRoot.BLOB = InputRoot.BLOB;
+		RETURN TRUE;
+	END;
+END MODULE;

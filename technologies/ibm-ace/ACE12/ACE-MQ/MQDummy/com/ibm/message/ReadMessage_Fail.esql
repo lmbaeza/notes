@@ -1,0 +1,11 @@
+BROKER SCHEMA com.ibm.message
+
+
+CREATE COMPUTE MODULE ReadMessage_Fail
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET OutputRoot.JSON.Data.response.message = 'El mensaje NO se pudo leer correctamente';
+		SET OutputRoot.JSON.Data.response.status = 500;
+		RETURN TRUE;
+	END;
+END MODULE;
