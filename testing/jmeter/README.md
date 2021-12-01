@@ -21,3 +21,5 @@ Una prueba de estrés evalúa el sistema sometiéndolo a una carga creciente has
 | 100         | 32                  | 1                           |                                   |                              |                                 |                                 |               |                         |                          |           |
 | 100         | 64                  | 1                           |                                   |                              |                                 |                                 |               |                         |                          |           |
 | 100         | 128                 | 1                           |                                   |                              |                                 |                                 |               |                         |                          |           |
+
+[Tabla Generada con `tableconvert`](https://tableconvert.com)
