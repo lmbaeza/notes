@@ -35,3 +35,7 @@ Una prueba de estrés evalúa el sistema sometiéndolo a una carga creciente has
 | ...  | ...   | ..  |
 | 4096 | 452   | 271 |
 | 5000 | 463.8 | 314 |
+
+### Ejemplo de Graficas
+
+![Ejemplo de Graficas](img/graficas.png)
