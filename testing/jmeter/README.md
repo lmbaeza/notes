@@ -23,3 +23,15 @@ Una prueba de estrés evalúa el sistema sometiéndolo a una carga creciente has
 | 100         | 128                 | 1                           |                                   |                              |                                 |                                 |               |                         |                          |           |
 
 [Tabla Generada con `tableconvert`](https://tableconvert.com)
+
+### Medición de Uso de Memoria y de Milicores
+
+| Numero de Usuarios     | Memoria (MiB)      |  CPU (Millicores)   |
+|:------:|:-------:|:-----:|
+| 1    | 315.5 | 30  |
+| 2    | 315.5 | 30  |
+| 4    | 315.6 | 30  |
+| 8    | 315.7 | 31  |
+| ...  | ...   | ..  |
+| 4096 | 452   | 271 |
+| 5000 | 463.8 | 314 |
