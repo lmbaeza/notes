@@ -26,6 +26,12 @@
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
+## Rest Client
+
+`Dev`
+- [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) - Alternativa a Postman
+- [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) - Es ideal para cosas simples y rapidas
+
 ## IBM MQ
 
 `Dev`
