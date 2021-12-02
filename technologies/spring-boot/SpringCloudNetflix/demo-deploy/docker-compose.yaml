@@ -1,0 +1,62 @@
+version: '3.9'
+services:
+  eureka-naming-server:
+    # container_name: eureka-naming-server
+    image: eureka-naming-server:0.0.1-SNAPSHOT
+    ports:
+      - "8761:8761"
+    networks:
+      - demo-network
+  
+  demo-api-gateway:
+    # container_name: demo-api-gateway
+    image: demo-api-gateway:0.0.1-SNAPSHOT
+    ports:
+      - "8765:8765"
+    networks:
+      - demo-network
+    depends_on:
+      - eureka-naming-server
+    environment:
+      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://eureka-naming-server:8761/eureka
+
+  demo-microservice:
+    # container_name: demo-microservice
+    image: demo-microservice:0.0.1-SNAPSHOT
+    restart: always
+    ports:
+      - "8000-8099:8000"
+    depends_on:
+      - postgresqldb
+      - eureka-naming-server
+    networks:
+      - demo-network
+    environment:
+      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://eureka-naming-server:8761/eureka
+
+  postgresqldb:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=university
+    networks:
+      - demo-network
+  
+  demo-feign-microservice:
+    # container_name: demo-feign-microservice
+    image: demo-feign-microservice:0.0.1-SNAPSHOT
+    ports:
+        - "8100:8100"
+    networks:
+        - demo-network
+    depends_on:
+        - eureka-naming-server
+    environment:
+        EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://eureka-naming-server:8761/eureka
+
+networks:
+  demo-network:
+    name: demo

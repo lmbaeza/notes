@@ -1,0 +1,14 @@
+version: '3.1'
+services:
+  app:
+    container_name: eureka-naming-server
+    image: eureka-naming-server
+    build: ./
+    ports:
+      - "8761:8761"
+    networks:
+      - demo-network
+
+networks:
+  demo-network:
+    name: demo

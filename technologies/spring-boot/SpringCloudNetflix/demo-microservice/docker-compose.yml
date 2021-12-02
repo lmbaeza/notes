@@ -1,0 +1,29 @@
+version: '3.9'
+services:
+  app:
+    container_name: demo-microservice
+    image: demo-microservice
+    build: ./
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgresqldb
+    networks:
+      - demo-network
+    environment:
+      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://eureka-naming-server:8761/eureka
+
+  postgresqldb:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=university
+    networks:
+      - demo-network
+
+networks:
+  demo-network:
+    name: demo

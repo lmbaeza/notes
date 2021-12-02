@@ -1,0 +1,16 @@
+version: '3.9'
+services:
+  app:
+    container_name: demo-feign-microservice
+    image: demo-feign-microservice
+    build: ./
+    ports:
+      - "8100:8100"
+    networks:
+      - demo-network
+    environment:
+      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://eureka-naming-server:8761/eureka
+
+networks:
+  demo-network:
+    name: demo
