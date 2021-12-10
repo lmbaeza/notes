@@ -1,0 +1,42 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ace-balance-four
+  namespace: anynamespace
+  labels:
+    app: ace-balance-four
+    app.kubernetes.io/part-of: ace-balance-four
+    app-type: ACE
+spec:
+  ports:
+    - name: 1414-tcp
+      protocol: TCP
+      port: 1414
+      targetPort: 1414
+    - name: 7600-tcp
+      protocol: TCP
+      port: 7600
+      targetPort: 7600
+    - name: 7800-tcp
+      protocol: TCP
+      port: 7800
+      targetPort: 7800
+    - name: 7843-tcp
+      protocol: TCP
+      port: 7843
+      targetPort: 7843
+    - name: 9157-tcp
+      protocol: TCP
+      port: 9157
+      targetPort: 9157
+    - name: 9443-tcp
+      protocol: TCP
+      port: 9443
+      targetPort: 9443
+    - name: 9483-tcp
+      protocol: TCP
+      port: 9483
+      targetPort: 9483
+  selector:
+    app: ace-balance-four
+  type: ClusterIP

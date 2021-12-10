@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ibm-mq-four
+  namespace: anynamespace
+  labels:
+    app: ibm-mq-four
+    app.kubernetes.io/part-of: ibm-mq-four
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ibm-mq-four
+  template:
+    metadata:
+      labels:
+        app: ibm-mq-four
+        app.kubernetes.io/part-of: ibm-mq-four
+        deployment: ibm-mq-four
+      annotations:
+        openshift.io/generated-by: Devops
+    spec:
+      serviceAccountName: aceuser
+      serviceAccount: aceuser
+      volumes:
+            - name: ace-config
+      containers:
+      - image: quay.io/USER/mq:latest
+        name: ibm-mq-four
+        imagePullPolicy: Always
+        ports:
+          - containerPort: 1414
+            protocol: TCP
+          - containerPort: 9157
+            protocol: TCP
+          - containerPort: 9443
+            protocol: TCP
+        env:
+        - name: LICENSE
+          value: "accept"
+        - name: MQ_QMGR_NAME
+          value: IBM_MQ1
+        - name: MQ_APP_PASSWORD
+          value: passw0rd

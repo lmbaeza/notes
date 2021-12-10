@@ -1,0 +1,55 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ace-balance-four
+  namespace: anynamespace
+  labels:
+    app: ace-balance-four
+    app.kubernetes.io/part-of: ace-balance-four
+    app-type: ACE
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ace-balance-four
+  template:
+    metadata:
+      labels:
+        app: ace-balance-four
+        app.kubernetes.io/part-of: ace-balance-four
+        app-type: ACE
+        deployment: ace-balance-four
+      annotations:
+        openshift.io/generated-by: Devops
+    spec:
+      serviceAccountName: aceuser
+      serviceAccount: aceuser
+      volumes:
+            - name: ace-config
+      containers:
+      - image: quay.io/USER/ace-balance-four:latest
+        name: ace-balance-four
+        imagePullPolicy: Always
+        ports:
+            - containerPort: 1414
+              protocol: TCP
+            - containerPort: 7600
+              protocol: TCP
+            - containerPort: 7800
+              protocol: TCP
+            - containerPort: 7843
+              protocol: TCP
+            - containerPort: 9157
+              protocol: TCP
+            - containerPort: 9443
+              protocol: TCP
+            - containerPort: 9483
+              protocol: TCP
+        
+        # envFrom:
+        #   - configMapRef:
+        #     name: map-ace-balance-four
+        
+        env:
+        - name: LICENSE
+          value: "accept"
