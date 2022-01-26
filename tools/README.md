@@ -16,4 +16,12 @@
 
 ### Graficos
 
+`Dev`
+
 - [ExcalidDraw](https://excalidraw.com/) _App Para Hacer Graficos Simples_
+
+### Generador de Colores
+
+`Dev`
+
+- [My Brand New Logo](https://mybrandnewlogo.com/es/generador-de-paleta-de-colores) __App para Generar Colores__
