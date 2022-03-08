@@ -25,3 +25,7 @@
 `Dev`
 
 - [My Brand New Logo](https://mybrandnewlogo.com/es/generador-de-paleta-de-colores) __App para Generar Colores__
+
+### Crear Horario Online
+
+- [Free College Schedule Maker](https://www.freecollegeschedulemaker.com/)
