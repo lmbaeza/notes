@@ -2,6 +2,10 @@
 
 `Dev` - Desarrollo, `CP` - Programación Competitiva
 
+## Development
+
+- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+
 ## Rust
 
 `Dev` y `CP`
