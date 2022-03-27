@@ -41,3 +41,9 @@
 `Dev`
 
 - [MQSC - Language support for MQSC commands](https://marketplace.visualstudio.com/items?itemName=lemrod.vscode-mqsc)
+
+## Competitive Programming
+
+`CP`
+
+- [Competitive Programming Helper (cph)](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper)
