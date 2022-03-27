@@ -29,3 +29,7 @@
 ### Crear Horario Online
 
 - [Free College Schedule Maker](https://www.freecollegeschedulemaker.com/)
+
+### CLI
+
+- [Starship](https://github.com/starship/starship) _Customize CLId_
