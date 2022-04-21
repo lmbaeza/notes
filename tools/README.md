@@ -33,3 +33,4 @@
 ### CLI
 
 - [Starship](https://github.com/starship/starship) _Customize CLId_
+- [Exa](https://the.exa.website/) _Alternative to `ls`_
