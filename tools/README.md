@@ -24,7 +24,7 @@
 
 `Dev`
 
-- [My Brand New Logo](https://mybrandnewlogo.com/es/generador-de-paleta-de-colores) __App para Generar Colores__
+- [My Brand New Logo](https://mybrandnewlogo.com/es/generador-de-paleta-de-colores) _App para Generar Colores_
 
 ### Crear Horario Online
 
@@ -34,3 +34,9 @@
 
 - [Starship](https://github.com/starship/starship) _Customize CLId_
 - [Exa](https://the.exa.website/) _Alternative to `ls`_
+
+### Grabar la terminal del Unix y Windows
+
+- [Asciinema](https://github.com/asciinema/asciinema) - _CLI que permite grabar la Terminal_
+
+- [gifcast](https://dstein64.github.io/gifcast/) - _App que permite pasar la grabación a un archivo .gif_
