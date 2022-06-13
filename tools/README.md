@@ -40,3 +40,6 @@
 - [Asciinema](https://github.com/asciinema/asciinema) - _CLI que permite grabar la Terminal_
 
 - [gifcast](https://dstein64.github.io/gifcast/) - _App que permite pasar la grabación a un archivo .gif_
+
+### Android
+- [Vysor](https://www.vysor.io/) - _Proyectar el Celular en un PC_
