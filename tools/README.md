@@ -46,3 +46,6 @@
 
 ### Convertir Archivos de Configuración a otros Formatos
 - [transform.tools](https://transform.tools/)
+
+### Sandbox for Insecure Code
+- [Mini Jail](https://github.com/google/minijail) - _chrome based sandbox_
